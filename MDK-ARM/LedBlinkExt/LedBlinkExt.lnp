@@ -1,0 +1,25 @@
+--cpu Cortex-M4.fp
+"ledblinkext\startup_stm32f407xx.o"
+"ledblinkext\main.o"
+"ledblinkext\stm32f4xx_it.o"
+"ledblinkext\stm32f4xx_hal_msp.o"
+"ledblinkext\stm32f4xx_hal_tim.o"
+"ledblinkext\stm32f4xx_hal_tim_ex.o"
+"ledblinkext\stm32f4xx_hal_rcc.o"
+"ledblinkext\stm32f4xx_hal_rcc_ex.o"
+"ledblinkext\stm32f4xx_hal_flash.o"
+"ledblinkext\stm32f4xx_hal_flash_ex.o"
+"ledblinkext\stm32f4xx_hal_flash_ramfunc.o"
+"ledblinkext\stm32f4xx_hal_gpio.o"
+"ledblinkext\stm32f4xx_hal_dma_ex.o"
+"ledblinkext\stm32f4xx_hal_dma.o"
+"ledblinkext\stm32f4xx_hal_pwr.o"
+"ledblinkext\stm32f4xx_hal_pwr_ex.o"
+"ledblinkext\stm32f4xx_hal_cortex.o"
+"ledblinkext\stm32f4xx_hal.o"
+"ledblinkext\stm32f4xx_hal_exti.o"
+"ledblinkext\system_stm32f4xx.o"
+--library_type=microlib --strict --scatter "LedBlinkExt\LedBlinkExt.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "LedBlinkExt.map" -o LedBlinkExt\LedBlinkExt.axf
