@@ -69,7 +69,7 @@ int main(void)
 
   /* USER CODE BEGIN 1 */
 
-  /* DENEME PUSH GITHUB LEARNINING */	
+  /* BURAK AKSU */	
 
   /* USER CODE END 1 */
   
